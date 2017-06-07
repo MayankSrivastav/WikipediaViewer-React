@@ -1,3 +1,13 @@
+class SearchBar extends React.Component {
+  constructor() {
+    super();
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      results: ''
+    };
+  }
+}
+
 class Custom extends React.Component {  
   render() {
     return (
