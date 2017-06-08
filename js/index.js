@@ -6,6 +6,11 @@ class SearchBar extends React.Component {
       results: ''
     };
   }
+
+  handleClick() {       
+    const url = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=" 
+              + document.getElementById('search').value; 
+  }
 }
 
 class Custom extends React.Component {  
