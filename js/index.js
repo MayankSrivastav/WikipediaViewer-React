@@ -29,7 +29,17 @@ class SearchBar extends React.Component {
         alert(err);
       }
     });
-  }
+
+  } 
+    render() {
+      return (
+        <div className="SearchBar">
+          <input type="search" id="search"></input>
+          <button type="button" id="search-btn" onClick={this.handleClick}>search</button>
+          <div className="results">{$('.results').html(this.state.results)}</div>
+        </div>
+      );  
+    } 
 }
 
 class Custom extends React.Component {  
