@@ -9,3 +9,12 @@ body {
   margin-right: auto;
   max-width: 900px;
 }
+
+.extract {
+  padding-left: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
