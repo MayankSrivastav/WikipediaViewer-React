@@ -27,3 +27,8 @@ a {
   margin-left: 4px;
   width: 16%;
 }
+
+.article {
+  padding-left: 5px;
+  padding-right: 5px;
+}
