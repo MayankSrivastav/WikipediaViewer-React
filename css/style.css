@@ -32,3 +32,9 @@ a {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.results {  
+  margin-top: 10px;
+  background-color: #f6f186;
+  border: 1px solid black;
+}
