@@ -38,3 +38,13 @@ a {
   background-color: #f6f186;
   border: 1px solid black;
 }
+
+h1 {
+  text-align: center;
+  font-family: 'Lato';
+}
+
+.article:hover {
+  border: 1px solid brown;
+  background-color: #cfa653;
+}
